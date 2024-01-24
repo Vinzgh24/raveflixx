@@ -1,32 +1,49 @@
 ---
 title: "Raveflix"
-description: "This page was built using the Blowfish theme for Hugo."
+description: "Raveflix adalah Web Streaming Film yang dikhususkan untuk menonton melalui Aplikasi Rave"
 ---
 
-Welcome to Blowfish, one of the most flexible and robust Hugo themes. It is designed to be simple, fast and content-focused. Learn more about how to install [here]({{< ref "docs/installation" >}}) or get started with our CLI using:
+ <style>
+ .saweria-button {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #FF5020;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+  cursor: none;
+}
 
-```node
-npx blowfish-tools
-```  
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/SgXhGb-7QbU?si=ce44baicuQ6zMeXz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+.saweria-button:hover {
+  background-color: #FF5020;
+}
 
-<!--You can also find the complete theme documentation in [docs]({{< ref "docs" >}}). Blowfish is highly customizable and can be configured to fit your needs: from a static website to a blog. Checkout some [examples](/examples) and what some of our [users](/users) have been building.
+.sawer {
+  width: 20px;
+  margin-right: 5px;
+}
 
-Explore the [shortcode list]({{< ref "docs/shortcodes" >}}) and [sample pages]({{< ref "samples" >}}) to get a feel for what Blowfish can do. If you like what you see, check out the project on <a target="_blank" href="https://github.com/nunocoracao/blowfish">Github</a> or read the [Installation guide]({{< ref "docs/installation" >}}) to get started.-->
 
-<div class="flex px-4 py-2 mb-8 text-base rounded-md bg-primary-100 dark:bg-primary-900">
-  <span class="flex items-center ltr:pr-3 rtl:pl-3 text-primary-400">
-    {{< icon "triangle-exclamation" >}}
-  </span>
-  <span class="flex items-center justify-between grow dark:text-neutral-300">
-    <span class="prose dark:prose-invert">This is a demo of the <code id="layout">background</code> layout.</span>
-    <button
-      id="switch-layout-button"
-      class="px-4 !text-neutral !no-underline rounded-md bg-primary-600 hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
-    >
-      Switch layout &orarr;
-    </button>
-  </span>
+</style>
+Raveflix adalah situs streaming yang dibuat khusus untuk menonton film melalui aplikasi Rave. Untuk streaming melalui web ini sangat disarankan menggunakan aplikasi Rave saat menonton.
+
+
+ <div style="margin-top: 15px">
+          <script type='text/javascript' src='https://assets.trakteer.id/js/trbtn-overlay.min.js'></script><script type='text/javascript' class='troverlay'>(function() {var trbtnId = trbtnOverlay.init('Trakteer','#be1e2d','https://trakteer.id/levi-rave/tip/embed/modal','https://cdn.trakteer.id/images/embed/trbtn-icon.png?date=18-11-2023','40','inline');trbtnOverlay.draw(trbtnId);})();</script>
+        </div>
+
+
+### SUPPORT GROUP
+<div align="center">
+<a href="https://t.me/arxmirrorr" target="_blank">t.me/arxmirrorr</a>
+
+<a href="https://t.me/arxmirrorr" target="_blank">
+    <img src="https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Frunkit.io%2Fdamiankrawczyk%2Ftelegram-badge%2Fbranches%2Fmaster%3Furl%3Dhttps%3A%2F%2Ft.me%2Farxmirrorr" alt="Arxmirrorr">
+</a>
+
 </div>
-
-
