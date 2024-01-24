@@ -1,5 +1,5 @@
 ---
-title: 'One More Shot (2024)'
+title: "One More Shot (2024)""
 date: 2024-01-24T07:10:32Z
 tags: ["Movie"]
 categories: ["Action", "Thriller"]
