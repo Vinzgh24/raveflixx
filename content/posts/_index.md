@@ -1,10 +1,12 @@
 ---
 title: "Movies"
+draft: false
 
 cascade:
   showEdit: false
   showSummary: true 
   hideFeatureImage: false
+
 ---
     
 {{< lead >}}

@@ -1,0 +1,44 @@
+{{ $sectionPages := where .Site.Pages "Section" "movies" }} 
+{{ $sortedPages := $sectionPages.ByTitle }} 
+{{ $alphabets := append (split "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "") (slice "0-9") }}
+
+{{ range $alphabets }}
+  {{ $currentLetter := . }}
+  {{ $pageGroup := slice }}
+  
+  {{ if eq $currentLetter "0-9" }}
+    {{/* Group the pages whose titles start with a number */}}
+    {{ range $sortedPages }}
+      {{ if not (in .File.Path "movies/_index.md") }}  {{/* Exclude movies folder */}}
+        {{ $firstChar := substr (upper .Title) 0 1 }}
+        {{ if in "0123456789" $firstChar }}
+          {{ $pageGroup = $pageGroup | append . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    {{/* Group the pages by the current alphabet letter */}}
+    {{ range $sortedPages }}
+      {{ if not (in .File.Path "movies/_index.md") }}  {{/* Exclude movies folder */}}
+        {{ if eq (upper (substr .Title 0 1)) $currentLetter }}
+          {{ $pageGroup = $pageGroup | append . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{/* Output grouped pages if the group is not empty */}}
+  {{ if gt (len $pageGroup) 0 }}
+    {{ if eq $currentLetter "0-9" }}
+      <h2 id="0-9">0-9</h2>
+    {{ else }}
+      <h2 id="{{ $currentLetter | urlize }}">{{ $currentLetter }}</h2>
+    {{ end }}
+   <ul>
+  {{ range $pageGroup }}
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  {{ end }}
+</ul>
+  {{ end }}
+{{ end }}
+

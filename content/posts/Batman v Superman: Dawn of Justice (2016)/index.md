@@ -1,13 +1,14 @@
 ---
 title: "Batman v Superman: Dawn of Justice (2016)"
 date: 2024-01-27T07:07:54Z
+description: "Menyusul serangan di situs hitam di Polandia, Navy SEAL Jake Harris diperintahkan untuk mengawal tersangka teroris Amin Mansur ke Washington D.C untuk diinterogasi."
 tags: ["Movie"]
-featured: "https://image.tmdb.org/t/p/original/jzwwSZs9KqyvroROqqnDWR0jFG0.jpg"
+featured_image: "https://image.tmdb.org/t/p/original/jzwwSZs9KqyvroROqqnDWR0jFG0.jpg"
 categories: ["Action", "Thriller"]
 Summary: "Menyusul serangan di situs hitam di Polandia, Navy SEAL Jake Harris diperintahkan untuk mengawal tersangka teroris Amin Mansur ke Washington D.C untuk diinterogasi."
 ---
 
-hi
+
 <mux-player stream-type="on-demand"
 src="https://kp3d-my.sharepoint.com/personal/ryoo_kp3d_onmicrosoft_com/_layouts/15/download.aspx?share=EWKIou_RxMREi3ogav5t2BEBIRaghmwOJy1lpQk8vnF_5A" prefer-playback="mse" controls>
 
