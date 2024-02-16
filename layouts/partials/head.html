@@ -147,16 +147,7 @@
   {{ end }}
   {{ end }}
  
-<link href="https://unpkg.com/tailwindcss@2.0.1/dist/tailwind.min.css" rel="stylesheet">
-<!-- Tailwind CSS -->
-<script src="https://cdn.tailwindcss.com"></script>
 
-<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-
-<!-- Bootstrap JS (include Popper.js for Bootstrap v4) -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script>
 $(document).ready(function() {
     // Check if the modal was previously opened and calculate the difference in time
@@ -199,5 +190,46 @@ $(document).ready(function() {
     }
 });
 </script>
+<!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com --> 
+
+     <script>
+      
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+
+  // Function to show the modal
+  function showModal() {
+    // Automatically open the modal
+    $('#exampleModalCenter').removeClass('hidden');
+  }
+
+  // Check if the 'modalShown' item exists and if the timestamp is still valid
+  var modalShown = localStorage.getItem('modalShown');
+  var currentTime = new Date().getTime();
+
+  if (!modalShown || currentTime > modalShown) {
+    showModal();
+
+    // After showing the modal, disable the close button for 5 seconds
+    setTimeout(function() {
+      // Enable the close button by removing the disabled attribute and opacity class
+      $('[data-te-modal-dismiss]').prop('disabled', false).removeClass('opacity-50');
+
+      // Define click event for modal close button after 5 sec
+      $('[data-te-modal-dismiss]').click(function() {
+        $('#exampleModalCenter').addClass('hidden');
+        // Set 'modalShown' session storage with the current time + 10 seconds delay
+        var nextTime = new Date().getTime() + (10 * 1000); // 10 seconds delay
+        localStorage.setItem('modalShown', nextTime);
+      });
+    }, 5000);
+  }
+
+});
+</script>
 <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+       
+     
 </head>
