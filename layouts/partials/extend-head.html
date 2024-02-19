@@ -1,0 +1,90 @@
+<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <script type="text/javascript">
+$(document).ready(function() {
+  var closeModalDelay = 5; // 5 seconds delay before showing the modal again.
+  var countdownDuration = 5; // Duration of the countdown timer in seconds.
+  var lastClosedTimestamp = localStorage.getItem('lastClosedTimestamp');
+  var $modal = $('#exampleModalCenter'); // Reference to the modal element
+  var $closeBtn = $('button[data-te-modal-dismiss]');
+  var originalButtonText = $closeBtn.text();
+
+  // Function to handle the countdown and button text update
+  function startCountdown() {
+    var endTime = Date.now() + countdownDuration * 1000; // Set the future end time
+
+    $closeBtn.prop('disabled', true).text(originalButtonText + ' (' + countdownDuration + ')');
+
+    var timerInterval = setInterval(function() {
+      var timeLeft = Math.round((endTime - Date.now()) / 1000);
+
+      if (timeLeft <= 0) {
+        clearInterval(timerInterval);
+        $closeBtn.prop('disabled', false).text(originalButtonText).focus();
+      } else {
+        $closeBtn.text(originalButtonText + ' (' + timeLeft + ')');
+      }
+    }, 1000); // Checking every 100ms for a smoother countdown.
+  }
+
+  // Function to open the modal if the delay has passed
+  function openModal() {
+    var currentTime = Math.floor(Date.now() / 1000);
+    if (!lastClosedTimestamp || currentTime - lastClosedTimestamp >= closeModalDelay) {
+      $modal.fadeIn(); // Use fade in when showing the modal
+      startCountdown();
+    }
+  }
+  
+    // Function to shake the modal
+  function shakeModal() {
+    var shakeTimes = 3;
+    var shakeDistance = 15;
+    var duration = 50;
+
+    for (var i = 0; i < shakeTimes; i++) {
+      $modal.animate({ 'margin-left': "+=" + shakeDistance }, duration);
+      $modal.animate({ 'margin-left': "-=" + (shakeDistance * 2) }, duration);
+      shakeDistance = shakeDistance * 0.7; // reduce the shake distance for each shake
+    }
+    $modal.animate({ 'margin-left': "+=" + shakeDistance }, duration, function() {
+      $modal.css('margin-left', ''); // Reset margin left when shake finishes
+    });
+  }
+
+  // Event listener for clicks outside the modal area
+  $modal.on('click', function(event) {
+    if ($(event.target).is($modal)) { // Check if the click is on the modal backdrop
+      shakeModal(); // Trigger the shake effect
+      event.stopPropagation(); // Prevent event from propagating to other handlers
+    }
+  });
+
+  // Close button event
+  $closeBtn.click(function() {
+    // Use fadeOut when hiding the modal
+    $modal.fadeOut(400, function() { // 400ms is the default fadeOut duration
+      // Add 'hidden' class or other logic after the fadeOut completes if necessary
+      $modal.addClass('hidden');
+      localStorage.setItem('lastClosedTimestamp', Math.floor(Date.now() / 1000));
+    });
+  });
+
+  openModal(); // Open the modal automatically after checking the delay
+});
+    </script>
+
+    {{ partial "modal.html" }}
+    
+<style>
+
+
+</style>
+ 
