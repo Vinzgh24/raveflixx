@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Biography on N9O</title>
+    <link>http://localhost:1313/categories/biography/</link>
+    <description>Recent content in Biography on N9O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Fri, 02 Feb 2024 15:38:14 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/biography/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>12th Fail (2023)</title>
+      <link>http://localhost:1313/posts/12th-fail-2023/</link>
+      <pubDate>Fri, 02 Feb 2024 15:38:14 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/12th-fail-2023/</guid>
+      <description>Kisah nyata Petugas IPS Manoj Kumar Sharma dan Petugas IRS Shraddha Joshi.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

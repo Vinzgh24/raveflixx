@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crime on N9O</title>
+    <link>http://localhost:1313/categories/crime/</link>
+    <description>Recent content in Crime on N9O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Sat, 10 Feb 2024 08:46:58 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/crime/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>War On Terror: KL Anarchy (2023)</title>
+      <link>http://localhost:1313/posts/war-on-terror-kl-anarchy-2023/</link>
+      <pubDate>Sat, 10 Feb 2024 08:46:58 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/war-on-terror-kl-anarchy-2023/</guid>
+      <description>Khalid, seorang polisi pemberontak dari pasukan khusus elit harus membuktikan bahwa ia mampu bekerja sebagai tim untuk menggagalkan ancaman teroris untuk menjatuhkan Kuala Lumpur.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

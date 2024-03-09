@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on N9O</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on N9O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Sat, 10 Feb 2024 13:18:59 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Action</title>
+      <link>http://localhost:1313/categories/action/</link>
+      <pubDate>Sat, 10 Feb 2024 13:18:59 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/action/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Drama</title>
+      <link>http://localhost:1313/categories/drama/</link>
+      <pubDate>Sat, 10 Feb 2024 13:18:59 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/drama/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Thriller</title>
+      <link>http://localhost:1313/categories/thriller/</link>
+      <pubDate>Sat, 10 Feb 2024 13:18:59 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/thriller/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Adventure</title>
+      <link>http://localhost:1313/categories/adventure/</link>
+      <pubDate>Sat, 10 Feb 2024 13:16:16 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/adventure/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Crime</title>
+      <link>http://localhost:1313/categories/crime/</link>
+      <pubDate>Sat, 10 Feb 2024 08:46:58 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/crime/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Trending</title>
+      <link>http://localhost:1313/categories/trending/</link>
+      <pubDate>Sat, 10 Feb 2024 08:44:09 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/trending/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Romance</title>
+      <link>http://localhost:1313/categories/romance/</link>
+      <pubDate>Sat, 10 Feb 2024 08:41:21 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/romance/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Horror</title>
+      <link>http://localhost:1313/categories/horror/</link>
+      <pubDate>Sat, 10 Feb 2024 08:39:19 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/horror/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mystery</title>
+      <link>http://localhost:1313/categories/mystery/</link>
+      <pubDate>Sat, 10 Feb 2024 08:39:19 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/mystery/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Fantasy</title>
+      <link>http://localhost:1313/categories/fantasy/</link>
+      <pubDate>Thu, 08 Feb 2024 07:57:14 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/fantasy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Biography</title>
+      <link>http://localhost:1313/categories/biography/</link>
+      <pubDate>Fri, 02 Feb 2024 15:38:14 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/biography/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

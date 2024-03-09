@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Romance on N9O</title>
+    <link>http://localhost:1313/categories/romance/</link>
+    <description>Recent content in Romance on N9O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Sat, 10 Feb 2024 08:41:21 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/romance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20th Century Girl (2022)</title>
+      <link>http://localhost:1313/posts/20th-century-girl-2022/</link>
+      <pubDate>Sat, 10 Feb 2024 08:41:21 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/20th-century-girl-2022/</guid>
+      <description>Pada tahun 1999, seorang remaja berhati emas mulai mengawasi teman sekelasnya yang populer sebagai bantuan kepada sahabatnya yang jatuh cinta.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

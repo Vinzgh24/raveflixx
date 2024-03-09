@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Horror on N9O</title>
+    <link>http://localhost:1313/categories/horror/</link>
+    <description>Recent content in Horror on N9O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Sat, 10 Feb 2024 08:39:19 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/horror/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Upgrade (2018)</title>
+      <link>http://localhost:1313/posts/upgrade-2018/</link>
+      <pubDate>Sat, 10 Feb 2024 08:39:19 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/upgrade-2018/</guid>
+      <description>Bersetting di masa depan, teknologi menguasai hampir seluruh aspek kehidupan. Namun ketika dunia Grey, seorang yang menyebut dirinya fobia teknologi, dijungkirbalikkan, satu-satunya harapannya untuk membalas dendam adalah implan chip komputer eksperimental.</description>
+      
+    </item>
+    
+    <item>
+      <title>Streamer (2023)</title>
+      <link>http://localhost:1313/posts/streamer-2023/</link>
+      <pubDate>Sat, 10 Feb 2024 08:36:16 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/streamer-2023/</guid>
+      <description>Lima streamer berkumpul di sebuah gedung yang ditinggalkan untuk mengungkap kebenaran video aneh yang ditinggalkan oleh BJ. Adegan itu menyeramkan. Masing-masing dari mereka melakukan siaran langsung sambil memeriksa gedung secara bersamaan.</description>
+      
+    </item>
+    
+    <item>
+      <title>Bangku Kosong: Ujian Terakhir (2023)</title>
+      <link>http://localhost:1313/posts/bangku-kosong-ujian-terakhir-2023/</link>
+      <pubDate>Thu, 08 Feb 2024 08:01:40 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/bangku-kosong-ujian-terakhir-2023/</guid>
+      <description>Hari ujian sekolah yang damai berubah menjadi mimpi buruk ketika kekuatan gelap yang menakutkan merasuki dan meneror siswa berprestasi, menyebabkan histeria massal dan kematian.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
