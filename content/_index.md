@@ -2,10 +2,6 @@
 title: "Raveflix"
 description: "Raveflix adalah Web Streaming Film yang dikhususkan untuk menonton melalui Aplikasi Rave"
 ---
-
- <style>
-
-</style>
  
 ![Example](img/cloudstream.jpg "Image caption")
 
