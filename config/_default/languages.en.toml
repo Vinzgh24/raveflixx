@@ -10,24 +10,24 @@ title = "N9O"
   dateFormat = "2006-01-02"
   # logo = "img/logo_inverted@0.25x.png"
   # secondaryLogo = "img/logo@0.25x.png"
-  description = "N9O | Nuno Coração"
+#  description = ""
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
-  name = "Nuno Coração"
+#;  name = ""
  # image = "img/avatar.jpg"
-  headline = "Staff Product Manager @ Docker"
-  bio = "Staff Product Manager @ Docker"
-  links = [
-    { email = "mailto:nuno@n9o.xyz" },
-    { linkedin = "https://linkedin.com/in/nunocoracao" },
-    { x-twitter = "https://twitter.com/nunocoracao" },
-    { github = "https://github.com/nunocoracao" },
+#  headline = ""
+  # bio = ""
+#  links = [
+#    { email = "mailto:nuno@n9o.xyz" },
+#    { linkedin = "https://linkedin.com/in/nunocoracao" },
+#    { x-twitter = "https://twitter.com/nunocoracao" },
+#    { github = "https://github.com/nunocoracao" },
     #{ medium = "https://medium.com/@nunocoracao" },
     #{ hackernews = "https://news.ycombinator.com/user?id=nunocoracao"},
     #{ mastodon = "https://masto.ai/@nunocoracao" },
-    { instagram = "https://instagram.com/nunocoracao" },
-    { goodreads = "http://goodreads.com/nunocoracao" },
+ #   { instagram = "https://instagram.com/nunocoracao" },
+#    { goodreads = "http://goodreads.com/nunocoracao" },
     #{ keybase = "https://keybase.io/nunocoracao" },
     #{ reddit = "https://reddit.com/user/nunoheart" },
     #{ telegram = "https://t.me/nunocoracao" },
