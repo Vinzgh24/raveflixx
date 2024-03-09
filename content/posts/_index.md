@@ -1,6 +1,6 @@
 ---
 title: "Movies"
-draft: true 
+draft: false
 
 cascade:
   showEdit: false
